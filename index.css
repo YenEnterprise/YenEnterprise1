@@ -73,6 +73,8 @@
     position: fixed;
     bottom: 12px;
     right: 12px;
+    width: 160px;
+    height: 50px;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 30px;
     display: flex;
@@ -86,7 +88,7 @@
 .audio-controls button {
     background: none;
     border: none;
-    font-size: 20px;
+    font-size: 20px;p
     cursor: pointer;
     color: #FF1493;
     margin-right: 10px;
@@ -220,8 +222,8 @@
     .audio-controls {
         bottom: 12px;
         right: 12px;
-        width: 140px;
-        height: 40px;
+        width: 160px;
+        height: 50px;
     }
 
     .audio-controls button {
@@ -250,8 +252,8 @@
     .audio-controls {
         bottom: 12px;
         right: 12px;
-        width: 150px;
-        height: 45px;
+        width: 160px;
+        height: 50px;
     }
 
     .audio-controls button {
