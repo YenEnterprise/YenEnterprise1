@@ -221,7 +221,8 @@
 
     .audio-controls {
         bottom: 10px;
-        right: 10px;
+        left: 50%;
+        transform: translateX(-50%);
         width: 140px;
         height: 40px;
     }
@@ -247,6 +248,23 @@
 
     .next-button {
         font-size: 1.3rem;
+    }
+
+    .audio-controls {
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 150px;
+        height: 45px;
+    }
+
+    .audio-controls button {
+        font-size: 19px;
+        margin-right: 8px;
+    }
+
+    .audio-controls input {
+        width: 70px;
     }
 }
 
