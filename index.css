@@ -7,8 +7,8 @@
 
         body {
             background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
-            height: 100vh;
-            overflow: hidden;
+            min-height: 100vh;
+            overflow-x: hidden;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -20,7 +20,9 @@
             text-align: center;
             z-index: 10;
             padding: 2rem;
-            max-width: 800px;
+            width: min(100%, 800px);
+            max-width: 100%;
+            box-sizing: border-box;
             background-color: rgba(255, 255, 255, 0.2);
             border-radius: 20px;
             backdrop-filter: blur(5px);
@@ -50,6 +52,8 @@
         }
 
         .next-button {
+            width: 100%;
+            max-width: 380px;
             padding: 1rem 3rem;
             font-size: 1.5rem;
             background: linear-gradient(45deg, #FF1493, #8A2BE2);
@@ -73,9 +77,9 @@
     position: fixed;
     bottom: 12px;
     right: 12px;
-    width: 160px;
+    width: min(95%, 220px);
     height: 50px;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.95);
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -88,7 +92,7 @@
 .audio-controls button {
     background: none;
     border: none;
-    font-size: 20px;p
+    font-size: 20px;
     cursor: pointer;
     color: #FF1493;
     margin-right: 10px;
@@ -202,8 +206,9 @@
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
-        padding: 1rem;
-        max-width: 90%;
+        padding: 1.5rem;
+        width: 100%;
+        max-width: 100%;
     }
 
     h1 {
@@ -211,19 +216,19 @@
     }
 
     .subtitle {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .next-button {
-        padding: 0.8rem 2rem;
+        width: 80%;
+        max-width: none;
+        padding: 2rem;
         font-size: 1.2rem;
     }
 
     .audio-controls {
-        bottom: 12px;
-        right: 12px;
-        width: 160px;
-        height: 50px;
+        width: min(95%, 220px);
+        height: 45px;
     }
 
     .audio-controls button {
@@ -250,10 +255,8 @@
     }
 
     .audio-controls {
-        bottom: 12px;
-        right: 12px;
-        width: 160px;
-        height: 50px;
+        width: min(95%, 220px);
+        height: 45px;
     }
 
     .audio-controls button {
@@ -298,26 +301,5 @@
             }
             50% {
                 opacity: 0;
-            }
-        }
-
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2.5rem;
-            }
-            .subtitle {
-                font-size: 1.3rem;
-            }
-            .container {
-                width: 90%;
-                padding: 1.5rem;
-            }
-            .next-button {
-                padding: 0.8rem 2rem;
-                font-size: 1.2rem;
-            }
-            .audio-controls {
-                bottom: 12px;
-                right: 12px;
             }
         }
