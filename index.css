@@ -221,8 +221,7 @@
 
     .audio-controls {
         bottom: 10px;
-        right: 50%;
-        transform: translateX(50%);
+        right: 10px;
         width: 140px;
         height: 40px;
     }
