@@ -71,11 +71,8 @@
 
 .audio-controls {
     position: fixed;
-    bottom: 3vh;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 160px; /* Forces a specific size so it can't jump */
-    height: 50px; /* Forces a specific height */
+    bottom: 12px;
+    right: 12px;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 30px;
     display: flex;
@@ -221,9 +218,8 @@
     }
 
     .audio-controls {
-        bottom: 3vh;
-        left: 50%;
-        transform: translateX(-50%);
+        bottom: 12px;
+        right: 12px;
         width: 140px;
         height: 40px;
     }
@@ -252,9 +248,8 @@
     }
 
     .audio-controls {
-        bottom: 3vh;
-        left: 50%;
-        transform: translateX(-50%);
+        bottom: 12px;
+        right: 12px;
         width: 150px;
         height: 45px;
     }
@@ -320,7 +315,7 @@
                 font-size: 1.2rem;
             }
             .audio-controls {
-                bottom: 10px;
-                right: 10px;
+                bottom: 12px;
+                right: 12px;
             }
         }
