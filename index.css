@@ -71,8 +71,8 @@
 
 .audio-controls {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 3vh;
+    right: 3vw;
     width: 160px; /* Forces a specific size so it can't jump */
     height: 50px; /* Forces a specific height */
     background: rgba(255, 255, 255, 0.9);
@@ -220,8 +220,8 @@
     }
 
     .audio-controls {
-        bottom: 10px;
-        right: 10px;
+        bottom: 3vh;
+        right: 3vw;
         width: 140px;
         height: 40px;
     }
@@ -250,8 +250,8 @@
     }
 
     .audio-controls {
-        bottom: 15px;
-        right: 15px;
+        bottom: 3vh;
+        right: 3vw;
         width: 150px;
         height: 45px;
     }
