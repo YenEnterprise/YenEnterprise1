@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Surprise For You ✨</title>
+    <link rel="stylesheet" href="letter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>For My Dearest Friend ❤️</h1>
+        </header>
+
+        <div class="letter-container">
+            <div class="letter" id="typed-text"></div>
+        </div>
+
+        <div class="video-container" id="video-message">
+            <!-- Replace with your video embed code -->
+             <iframe width="788" height="443" src="https://www.youtube.com/embed/oz3NVsMOBb8?list=RDoz3NVsMOBb8" title="Major Lazer &amp; MOTi   Boom Feat  Ty Dolla $ign, Wizkid, &amp; Kranium" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!-- <iframe src="about:blank" frameborder="0" allowfullscreen></iframe> -->
+        </div>
+
+        <div class="surprise-button-container">
+            <button class="surprise-button" id="surprise-button">
+                Click for a Surprise! 🎁
+            </button>
+        </div>
+
+        <div class="navigation">
+            <a href="javascript:history.back()" class="back-button">
+                <i class="fas fa-arrow-left"></i> Back to Birthday Cake
+            </a>
+        </div>
+    </div>
+
+    <!-- Modal for Surprise -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal">
+            <button class="modal-close" id="modal-close">×</button>
+            <div class="modal-header">
+                <h2>🎉 Your Special Surprise! 🎉</h2>
+            </div>
+            <div class="modal-body">
+                <div class="playlist">
+                    <h3 style="margin-bottom: 15px;">Songs That Remind Me of Us 😌</h3>
+                    <div class="playlist-item">
+                        <img src="3.jpg" alt="Song cover">
+                        <div class="playlist-item-info ">
+                            <div class="playlist-item-title">Our Favorite Memory</div>
+                            <div class="playlist-item-artist">That Artist You Love</div>
+                        </div>
+                        <div id = "memory" class="memory" >
+                            <button class="playlist-item-play"><i id = "icon" class="fas fa-play"></i></button>
+                        </div>
+                        
+                    </div>
+                    <div class="playlist-item">
+                        <img src="1.jpg" alt="Song cover">
+                        <div class="playlist-item-info">
+                            <div class="playlist-item-title">That Summer Night</div>
+                            <div class="playlist-item-artist">The Adventure Band</div>
+                        </div>
+                        <div id="memory1" >
+                            <button class="playlist-item-play"><i id="icon1" class="fas fa-play"></i></button>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <img src="6.jpg" alt="Song cover">
+                        <div class="playlist-item-info">
+                            <div class="playlist-item-title">Inside Joke Anthem</div>
+                            <div class="playlist-item-artist">Laugh Out Loud</div>
+                        </div>
+                        <div id="memory2">
+                            <button class="playlist-item-play"><i id="icon2" class="fas fa-play"></i></button>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <img src="2.jpeg" alt="Song cover">
+                        <div class="playlist-item-info">
+                            <div class="playlist-item-title">Remember When</div>
+                            <div class="playlist-item-artist">The Friendship Vibes</div>
+                        </div>
+                        <div id="memory3">
+                            <button class="playlist-item-play"><i id="icon3" class="fas fa-play"></i></button>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <img src="5.jpg" alt="Song cover">
+                        <div class="playlist-item-info">
+                            <div class="playlist-item-title">Birthday Wishes</div>
+                            <div class="playlist-item-artist">Happy Songs</div>
+                        </div>
+                        <div id="memory4">
+                            <button class="playlist-item-play"><i id="icon4" class="fas fa-play"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 20px;">
+                    <a href="d.rar" download class="back-button" style="background: #ffb6c1; border-color: #ffb6c1; color: white;">
+                        <i class="fas fa-download"></i> Download Your Digital Gift
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Music Controls -->
+    <div class="music-controls" id="music-toggle">
+        <i class="fas fa-volume-mute" id="music-icon"></i>
+    </div>
+
+    <!-- Audio Elements -->
+    <audio id="click-sound" preload="auto">
+        <source src="https://cdn.pixabay.com/download/audio/2021/08/04/audio_bb630cc098.mp3?filename=cute-notification-ringtone-1-173850.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="background-music" loop>
+        <source src="ልደትህ_ሽ_ዛሬ_ነው_ወፏ_ነግራኛለች_እጅግ_ተወዳጅ_የልደት_መዝሙር_Ye_Ethiopia_Lijoch_Birthday.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="music" loop>
+        <source src="Ark-Patrol-Let-Go-ft-Veronika-Redd-Heroic.m4a" type="audio/mpeg">
+    </audio>
+    <audio id="music2" loop>
+        <source src="Avicii-Wake-Me-Up-Lyric-Video.m4a" type="audio/mpeg">
+    </audio>
+    <audio id="music3" loop>
+        <source src="ByErik-ヵ-desolate-Slowed.m4a" type="audio/mpeg">
+    </audio>
+    <audio id="music4" loop>
+        <source src="DJ-Snake-Magenta-Riddim.m4a" type="audio/mpeg">
+    </audio>
+    <audio id="music5" loop>
+        <source src="Ikson-Last-Summer.m4a" type="audio/mpeg">
+    </audio>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvas-confetti/1.5.1/confetti.browser.min.js"></script>
+    <script src="play.js"></script>
+    <script src="letter.js"></script>
+</body>
+</html>
