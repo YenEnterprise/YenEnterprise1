@@ -58,33 +58,9 @@
           isGif: false,
           rotationAngle: -2,
           emoji: "🏰",
-        },
-        {
-          image: "1.jpg",
-          caption:
-            "Our spontaneous beach day when we skipped class. I still find sand in my backpack sometimes!",
-          isGif: false,
-          rotationAngle: 2,
-          emoji: "🏖️",
-        },
-        {
-          image: "2.jpeg",
-          caption:
-            "You've always been there for me through thick and thin. I'm so grateful for your friendship. ❤️",
-          isGif: false,
-          rotationAngle: -1,
-          emoji: "💕",
-        },
-        {
-          image: "3.jpg",
-          caption:
-            "Happy Birthday to my best friend in the whole world! Here's to many more adventures together!",
-          isGif: true,
-          rotationAngle: 3,
-          emoji: "🎂",
-        },
+        }
       ];
-
+      /*console.log("hehet")*/
       // Create confetti elements
       function createConfetti() {
         const confettiContainer = document.getElementById("confetti-container");

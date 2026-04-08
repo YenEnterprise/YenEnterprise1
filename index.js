@@ -1,4 +1,4 @@
-// --- 1. AUDIO CONTROLS ---
+    // --- 1. AUDIO CONTROLS ---
 const audio = document.getElementById('birthday-song');
 const playPauseBtn = document.getElementById('play-pause');
 const volumeControl = document.getElementById('volume');

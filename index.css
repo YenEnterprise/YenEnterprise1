@@ -1,4 +1,4 @@
-[4/6/2026 10:27 PM] YEN: * { 
+ * { 
             margin: 0; 
             padding: 0; 
             box-sizing: border-box; 
@@ -135,7 +135,7 @@
                 transform: translateY(-20px) rotate(10deg); 
             } 
             100% {
-[4/6/2026 10:27 PM] YEN: transform: translateY(0) rotate(0deg); 
+transform: translateY(0) rotate(0deg); 
             } 
         } 
  
