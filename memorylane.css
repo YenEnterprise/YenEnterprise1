@@ -1,3 +1,44 @@
+/* MEMORY CARD HOVER REVEAL */
+.memory-card {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.memory-card img {
+  width: 100%;
+  display: block;
+  border-radius: 15px;
+}
+
+/* hidden text */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+/* HOVER TRIGGER */
+.memory-card:hover .overlay {
+  opacity: 1;
+}
+
+/* MOBILE TAP TRIGGER */
+.memory-card:active .overlay {
+  opacity: 1;
+}
  @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap");
 
       * {
