@@ -44,7 +44,7 @@
           emoji: "🏕️",
         },
         {
-          image: "7.jpg",
+          image: "6.jpg",
           caption:
             "That concert where we danced until our feet hurt. Worth every blister!",
           isGif: true,
@@ -52,12 +52,21 @@
           emoji: "🎵",
         },
         {
-          image: "8.jpg",
+          image: "7.jpg",
           caption:
             "When we built that epic blanket fort during the storm and watched movies all day. Best rainy day ever!",
           isGif: false,
           rotationAngle: -2,
           emoji: "🏰",
+        },
+
+        {
+          image: "8.jpg",
+          caption:
+            "Remember when we got lost hiking and found that amazing waterfall? Best wrong turn ever! 😂",
+          isGif: false,
+          rotationAngle: -2,
+          emoji: "🌊",
         }
       ];
       /*console.log("hehet")*/
